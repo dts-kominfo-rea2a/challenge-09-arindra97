@@ -1,0 +1,24 @@
+.cardContact{
+    margin: 0 auto;
+    width: 28em;
+    height: 12em;
+    border-radius: 2em;
+    background-color: #fcc77e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin-bottom: 1em;
+}
+
+.cardImage img{
+    background-color: aliceblue;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+.cardText{
+    line-height: 90%;
+}
