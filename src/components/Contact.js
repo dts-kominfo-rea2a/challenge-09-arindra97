@@ -4,20 +4,16 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = (props) => {
-    const {nama} = props;
-    const {nomor} = props;
-    const {email} = props;
-    const {photo} = props;
 
     return (
         <div className='cardContact'>
             <div className='cardImage'>
-                <img src={photo} alt='contact' />
+                <img src={props.data.photo} alt='contact' />
             </div>
             <div className='cardText'>
-                <h3>{nama}</h3>
-                <p>{nomor}</p>
-                <p>{email}</p>
+                <h3>{props.data.name}</h3>
+                <p>{props.data.phone}</p>
+                <p>{props.data.email}</p>
             </div>
         </div>
     )
